@@ -1,0 +1,54 @@
+{
+  "permissions": {
+    "allowlist": {
+      "bash": [
+        "node",
+        "npm",
+        "git",
+        "grep",
+        "ls",
+        "cat",
+        "find",
+        "git status",
+        "git log",
+        "git diff",
+        "npm test",
+        "npm run",
+        "npx playwright"
+      ],
+      "powershell": [
+        "Get-ChildItem",
+        "Get-Content",
+        "Test-Path",
+        "Write-Host",
+        "Remove-Item",
+        "New-Item",
+        "Move-Item",
+        "node",
+        "npm",
+        "git"
+      ]
+    }
+  },
+  "automation": {
+    "test": {
+      "framework": "playwright",
+      "language": "typescript",
+      "headless": false,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "validation": {
+      "autoValidateTestPlans": true,
+      "validationScript": ".claude/tools/validate-test-plan.cjs"
+    }
+  },
+  "framework": {
+    "patternPom": true,
+    "dataGeneration": true,
+    "incrementalImplementation": true,
+    "description": "Framework defaults - apply to all projects"
+  }
+}

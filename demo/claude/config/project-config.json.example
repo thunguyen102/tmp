@@ -1,0 +1,43 @@
+{
+  "project": {
+    "name": "Recruitment Module Automation",
+    "description": "OrangeHRM Recruitment Module - Vacancy, Candidate, Pipeline Management",
+    "type": "web-automation",
+    "framework": "Playwright + TypeScript",
+    "poc": true,
+    "pocCases": 3,
+    "fullScope": 29,
+    "testPlans": {
+      "main": "docs/planning/recruitment-test-plan.md",
+      "poc": "docs/planning/POC-STATUS.md",
+      "implementation": "docs/planning/IMPLEMENTATION-READY.md"
+    },
+    "modules": [
+      {
+        "name": "Vacancy Management",
+        "scenarios": 8,
+        "priority": "HIGH"
+      },
+      {
+        "name": "Candidate Management",
+        "scenarios": 10,
+        "priority": "HIGH"
+      },
+      {
+        "name": "Candidate Pipeline",
+        "scenarios": 13,
+        "priority": "HIGH"
+      }
+    ],
+    "verticleSlice": {
+      "name": "Slice 1: Core Recruitment Flows",
+      "totalCases": 29,
+      "pocCases": [
+        "TC-V-001",
+        "TC-C-001",
+        "TC-P-001"
+      ],
+      "status": "POC Ready"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+
+> automation-framework@1.0.0 test:headed
+> playwright test --headed src/tests/vacancy.spec.ts
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- C:\Users\ThinkPad\Downloads\codex-testing-kit-main\codex-testing-kit-main\playwright.config.ts
+- C:\Users\ThinkPad\node_modules\playwright\lib\common\index.js
+- C:\Users\ThinkPad\node_modules\playwright\lib\program.js
+- C:\Users\ThinkPad\node_modules\@playwright\test\cli.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1225:15)
+    at Function.resolveFilename [as _resolveFilename] (C:\Users\ThinkPad\node_modules\playwright\lib\common\index.js:1185:36)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\ThinkPad\Downloads\codex-testing-kit-main\codex-testing-kit-main\playwright.config.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Module.newCompile2 (C:\Users\ThinkPad\node_modules\playwright\lib\common\index.js:921:29)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1706:10)
+    at Object.newLoader2 [as .ts] (C:\Users\ThinkPad\node_modules\playwright\lib\common\index.js:927:22)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at requireOrImport (C:\Users\ThinkPad\node_modules\playwright\lib\common\index.js:1149:18)
+    at loadUserConfig (C:\Users\ThinkPad\node_modules\playwright\lib\common\index.js:1334:52)
+    at loadConfig (C:\Users\ThinkPad\node_modules\playwright\lib\common\index.js:1341:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Object.loadConfigFromFile (C:\Users\ThinkPad\node_modules\playwright\lib\common\index.js:1553:10)
+    at runTests (C:\Users\ThinkPad\node_modules\playwright\lib\cli\testActions.js:46:18)
+    at _Command.<anonymous> (C:\Users\ThinkPad\node_modules\playwright\lib\program.js:53:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\ThinkPad\\Downloads\\codex-testing-kit-main\\codex-testing-kit-main\\playwright.config.ts',
+    'C:\\Users\\ThinkPad\\node_modules\\playwright\\lib\\common\\index.js',
+    'C:\\Users\\ThinkPad\\node_modules\\playwright\\lib\\program.js',
+    'C:\\Users\\ThinkPad\\node_modules\\@playwright\\test\\cli.js'
+  ]
+}

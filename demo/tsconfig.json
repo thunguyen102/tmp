@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "types": ["node"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@pages/*": ["src/pages/*"],
+      "@tests/*": ["src/tests/*"],
+      "@utils/*": ["src/utils/*"],
+      "@fixtures/*": ["src/fixtures/*"],
+      "@constants/*": ["src/constants/*"],
+      "@test-data/*": ["src/test-data/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+
+}

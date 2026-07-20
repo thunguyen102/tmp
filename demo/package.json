@@ -1,0 +1,32 @@
+{
+  "name": "automation-framework",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript Web Automation Framework with POM pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "cleanup:docs": "node .claude/tools/cleanup-docs.js",
+    "pre-delivery": "npm run test && npm run cleanup:docs"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "e2e",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

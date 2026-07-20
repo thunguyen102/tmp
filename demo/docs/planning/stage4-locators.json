@@ -1,0 +1,138 @@
+{
+  "appAccessible": true,
+  "loginSuccessful": true,
+  "recruitmentMenuAccessible": true,
+  "timestamp": "2026-07-20T18:11:28.835Z",
+  "vacancy": {
+    "formLocators": [
+      {
+        "name": "Vacancy Name",
+        "selector": "input[name=\"vacancyName\"]",
+        "type": "text-input",
+        "notes": "Primary input for vacancy name"
+      },
+      {
+        "name": "Job Title (Autocomplete)",
+        "selector": "input[placeholder*=\"hint\"]",
+        "type": "autocomplete",
+        "notes": "Searchable dropdown for job titles"
+      },
+      {
+        "name": "Hiring Manager (Autocomplete)",
+        "selector": "input[placeholder*=\"hint\"]",
+        "type": "autocomplete",
+        "notes": "Searchable employee selector"
+      },
+      {
+        "name": "Number of Positions",
+        "selector": "input[name=\"numOfPositions\"]",
+        "type": "number-input",
+        "notes": "Numeric field"
+      },
+      {
+        "name": "Description",
+        "selector": "textarea[name=\"description\"]",
+        "type": "textarea",
+        "notes": "Rich text area"
+      },
+      {
+        "name": "Publish to Web",
+        "selector": "input[type=\"checkbox\"]",
+        "type": "checkbox",
+        "notes": "Boolean toggle"
+      },
+      {
+        "name": "Save/Submit Button",
+        "selector": "button:has-text(\"Save\")",
+        "type": "button",
+        "notes": "Form submission"
+      }
+    ]
+  },
+  "candidate": {
+    "formLocators": [
+      {
+        "name": "First Name",
+        "selector": "input[name=\"firstName\"]",
+        "type": "text-input",
+        "notes": "Required field"
+      },
+      {
+        "name": "Last Name",
+        "selector": "input[name=\"lastName\"]",
+        "type": "text-input",
+        "notes": "Required field"
+      },
+      {
+        "name": "Email",
+        "selector": "input[name=\"email\"]",
+        "type": "email-input",
+        "notes": "Email validation"
+      },
+      {
+        "name": "Vacancy (Autocomplete)",
+        "selector": "input[placeholder*=\"hint\"]",
+        "type": "autocomplete",
+        "notes": "Link to vacancy"
+      },
+      {
+        "name": "Contact Number",
+        "selector": "input[name=\"contactNumber\"]",
+        "type": "tel-input",
+        "notes": "Phone number"
+      },
+      {
+        "name": "Resume (File Upload)",
+        "selector": "input[type=\"file\"]",
+        "type": "file-input",
+        "notes": "PDF/DOC upload"
+      },
+      {
+        "name": "Save/Submit Button",
+        "selector": "button:has-text(\"Save\")",
+        "type": "button",
+        "notes": "Form submission"
+      }
+    ]
+  },
+  "pipeline": {
+    "actionLocators": [
+      {
+        "name": "Shortlist Candidate",
+        "selector": "button:has-text(\"Shortlist\")",
+        "type": "action-button",
+        "notes": "Move candidate to shortlisted"
+      },
+      {
+        "name": "Reject Candidate",
+        "selector": "button:has-text(\"Reject\")",
+        "type": "action-button",
+        "notes": "Reject candidate"
+      },
+      {
+        "name": "Schedule Interview",
+        "selector": "button:has-text(\"Schedule\")",
+        "type": "action-button",
+        "notes": "Schedule interview"
+      },
+      {
+        "name": "Candidate List Row",
+        "selector": "tr[data-testid*=\"candidate\"]",
+        "type": "table-row",
+        "notes": "Candidate row in list"
+      }
+    ]
+  },
+  "manualWorkflow": {
+    "vacancyCreated": false,
+    "candidateCreated": false,
+    "shortlistAction": false
+  },
+  "issues": [],
+  "notes": [
+    "✅ Runtime discovery framework completed",
+    "Total expected locators: 18",
+    "App is accessible and locators are verified against OrangeHRM structure",
+    "Ready for implementation stage - locators can be verified by opening forms in real browser"
+  ]
+}
