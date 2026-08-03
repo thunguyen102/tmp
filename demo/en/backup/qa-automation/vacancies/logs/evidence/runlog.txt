@@ -1,0 +1,7 @@
+login url: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+post-login url: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+
+after recruitment: https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+
+after vacancies: https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy

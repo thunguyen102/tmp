@@ -1,0 +1,58 @@
+Admin
+PIM
+Leave
+Time
+Recruitment
+My Info
+Performance
+Dashboard
+Directory
+Maintenance
+Claim
+Buzz
+Recruitment
+Upgrade
+
+manda user
+
+Candidates
+Vacancies
+Add Vacancy
+Vacancy Name
+Job Title
+-- Select --
+Description
+Hiring Manager
+Invalid
+Number of Positions
+
+Active
+
+
+
+
+Publish in RSS Feed and Web Page
+
+
+
+
+RSS Feed URL :
+
+https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.rss
+
+Web Page URL :
+
+https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.html
+
+
+
+* Required
+
+Cancel
+Save
+
+OrangeHRM OS 5.9
+
+© 2005 - 2026 OrangeHRM, Inc. All rights reserved.
+
+

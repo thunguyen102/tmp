@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA Explore Real UI"
+  short_description: "Explore live web UI and capture QA evidence"
+  default_prompt: "Use $qa-explore-real-ui to inspect the supplied website through a real browser and save verified UI evidence."

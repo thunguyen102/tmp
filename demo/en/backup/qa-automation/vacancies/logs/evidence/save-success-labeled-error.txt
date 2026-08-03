@@ -1,0 +1,5 @@
+locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByLabel('Vacancy Name')[22m
+
+    at C:\Users\ThinkPad\Downloads\ai agent\proj-1-qa-automation-refactored\proj-1\qa-automation\vacancies\_verify-vacancy-save-labeled.mjs:25:41

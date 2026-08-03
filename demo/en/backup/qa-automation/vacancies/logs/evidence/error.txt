@@ -1,0 +1,5 @@
+page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Call log:
+[2m  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"[22m
+
+    at C:\Users\ThinkPad\Downloads\ai agent\proj-1-qa-automation-refactored\proj-1\qa-automation\vacancies\_explore-vacancies.mjs:20:14

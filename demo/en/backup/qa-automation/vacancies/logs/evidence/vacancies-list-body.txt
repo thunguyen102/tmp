@@ -1,0 +1,101 @@
+Admin
+PIM
+Leave
+Time
+Recruitment
+My Info
+Performance
+Dashboard
+Directory
+Maintenance
+Claim
+Buzz
+Recruitment
+Upgrade
+
+manda user
+
+Candidates
+Vacancies
+Vacancies
+Job Title
+-- Select --
+Vacancy
+-- Select --
+Hiring Manager
+-- Select --
+Status
+-- Select --
+Reset
+Search
+
+
+ Add
+(14) Records Found
+Vacancy
+Job Title
+Hiring Manager
+Status
+Actions
+Junior Account Assistant
+Account Assistant
+(Deleted)
+Active
+Payroll Administrator
+Payroll Administrator
+manda user
+Active
+QA Vacancy 290738
+QA Engineer
+A8DCo 010Z
+Active
+QA Vacancy 376852
+QA Engineer
+A8DCo 010Z
+Active
+QA Vacancy 481476
+QA Engineer
+A8DCo 010Z
+Active
+QA Vacancy 533762
+QA Engineer
+A8DCo 010Z
+Active
+QA Vacancy 541159
+QA Engineer
+A8DCo 010Z
+Active
+QA Vacancy 636427
+QA Engineer
+A8DCo 010Z
+Active
+QA Vacancy 954418
+QA Engineer
+A8DCo 010Z
+Active
+Sales Representative
+Sales Representative
+(Deleted)
+Active
+Senior QA Lead
+QA Lead
+(Deleted)
+Active
+Senior Support Specialist
+Support Specialist
+(Deleted)
+Active
+Software Engineer
+Software Engineer
+(Deleted)
+Active
+test
+Account Assistant
+Rahul Patil
+Active
+
+OrangeHRM OS 5.9
+
+© 2005 - 2026 OrangeHRM, Inc. All rights reserved.
+
+
