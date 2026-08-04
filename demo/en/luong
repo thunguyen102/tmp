@@ -1,0 +1,15 @@
+qa-gather-test-requirements
+        │  (gọi ngầm khi có URL)
+        ▼
+qa-explore-real-ui  ←──────┐ (được tái sử dụng, không chạy lại mỗi lần)
+        │                  │
+        ▼                  │
+requirements-analysis.md   │
+        ▼                  │
+qa-generate-test-plan ─────┘
+        ▼
+test-plan.md
+        ▼
+qa-generate-testcases
+        ▼
+test-cases.md
